@@ -101,9 +101,9 @@ python main.py --limit 3 --model gemini-2.5-flash --summary
 
 ## Input Format
 
-**CRM CSV** — must have at minimum an `email` column. All other fields (name, company, status, notes, etc.) are optional but improve output quality.
+**CRM CSV** - must have at minimum an `email` column. All other fields (name, company, status, notes, etc.) are optional but improve output quality.
 
-**Emails directory** — plain `.txt` files, one per email. Each file should start with `From:` and `Subject:` headers followed by the message body:
+**Emails directory** - plain `.txt` files, one per email. Each file should start with `From:` and `Subject:` headers followed by the message body:
 
 ```
 From: client name <client@example.com>
