@@ -1,4 +1,4 @@
-# Xylo AI — Client Document Generator
+# CraftDoc— Client Document Generator
 
 Reads raw CRM records and inbound client emails, then uses Google Gemini to classify each client's intent and generate a professional, client-ready response document.
 
